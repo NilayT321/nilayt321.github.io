@@ -1,0 +1,33 @@
+.accordion-menu {
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    padding: 10px;
+
+    .accordion-menu-title {
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .open-accordion, .accordion-menu-title:hover {
+        background-color: #ccffff;
+    }
+
+    .accordion-menu-content {
+        display: block;
+        overflow: auto;
+        
+        li {
+            margin: 1.0em;
+        }
+
+        li p {
+            margin: 0.2em;
+        }
+    }
+}
+

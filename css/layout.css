@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18453B;
+    padding: 0.6em;
+    color: white;
+    border-radius: 0.5em;
+    margin-bottom: 1.0em;
+
+    #header-name-logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-left: 5px;
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        gap: 80px;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav a:hover {
+        color: blue;
+    }
+}
+
+
