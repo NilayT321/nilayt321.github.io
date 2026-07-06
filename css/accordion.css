@@ -1,6 +1,6 @@
 .accordion-menu {
-    margin-block-start: 1.5em;
-    margin-block-end: 1.5em;
+    margin-block-start: 1.2em;
+    margin-block-end: 1.2em;
     padding: 10px;
 
     .accordion-menu-title {
@@ -18,8 +18,9 @@
     }
 
     .accordion-menu-content {
-        display: block;
+        display: none;
         overflow: auto;
+        margin-top: 5pt;
         
         li {
             margin: 1.0em;
@@ -27,6 +28,10 @@
 
         li p {
             margin: 0.2em;
+        }
+
+        &.open {
+            display: block;
         }
     }
 }

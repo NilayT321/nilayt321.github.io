@@ -1,2 +1,6 @@
 @import 'layout.css';
 @import 'accordion.css';
+
+body {
+    margin: 0.2in;
+}
