@@ -5,7 +5,9 @@ header {
     background-color: #18453B;
     padding: 0.6em;
     color: white;
-    border-radius: 0.5em;
+    /* border-radius: 0.5em; */
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 1.0em;
 
     #header-name-logo {
