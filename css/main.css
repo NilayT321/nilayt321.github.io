@@ -1,8 +1,10 @@
 @import 'layout.css';
 @import 'accordion.css';
+@import 'fonts.css';
 
 body {
     margin: 0;
+    font-family: "Inter";
 }
 
 main {
